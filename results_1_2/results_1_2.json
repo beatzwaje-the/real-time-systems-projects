@@ -1,0 +1,74 @@
+{
+    "early_exit": {
+        "random": {
+            "mean_ms": 2.4777937500221014,
+            "standard_deviation_ms": 9.070822115679729,
+            "minimum_ms": 0.05849999979545828,
+            "maximum_ms": 100.62980000111565,
+            "p90_ms": 4.3449500000861025,
+            "p95_ms": 9.455800000705473,
+            "p99_ms": 49.74488500078212
+        },
+        "adversarial": {
+            "mean_ms": 1.5054535000354008,
+            "standard_deviation_ms": 6.2319589395125465,
+            "minimum_ms": 0.2203999993071193,
+            "maximum_ms": 65.72010000127193,
+            "p90_ms": 1.54117999936716,
+            "p95_ms": 3.4896799997113663,
+            "p99_ms": 30.887901998521354
+        },
+        "observed_max_ms": 100.62980000111565,
+        "safety_margin_percent": 30.0,
+        "recommended_WCET_ms": 130.81874000145035,
+        "adversarial_exceeded_random": false
+    },
+    "data_dependent_loop": {
+        "random": {
+            "mean_ms": 0.4685872500476762,
+            "standard_deviation_ms": 0.8405795755376507,
+            "minimum_ms": 0.08270000034826808,
+            "maximum_ms": 10.620400000334485,
+            "p90_ms": 0.5436400009784847,
+            "p95_ms": 1.0594899996249267,
+            "p99_ms": 4.7285110000484565
+        },
+        "adversarial": {
+            "mean_ms": 0.6403097500378863,
+            "standard_deviation_ms": 0.772706079695563,
+            "minimum_ms": 0.22589999935007654,
+            "maximum_ms": 6.501899999420857,
+            "p90_ms": 0.6371900000885945,
+            "p95_ms": 1.537104999351867,
+            "p99_ms": 4.208609999368482
+        },
+        "observed_max_ms": 10.620400000334485,
+        "safety_margin_percent": 30.0,
+        "recommended_WCET_ms": 13.80652000043483,
+        "adversarial_exceeded_random": false
+    },
+    "nested_conditionals": {
+        "random": {
+            "mean_ms": 0.6761624999808191,
+            "standard_deviation_ms": 1.0375700256417004,
+            "minimum_ms": 0.058400000852998346,
+            "maximum_ms": 11.21899999998277,
+            "p90_ms": 1.1740000007193894,
+            "p95_ms": 2.158505000261354,
+            "p99_ms": 5.2383479990203305
+        },
+        "adversarial": {
+            "mean_ms": 0.8489149999786605,
+            "standard_deviation_ms": 1.1375778793569886,
+            "minimum_ms": 0.14009999904374126,
+            "maximum_ms": 9.015899999212706,
+            "p90_ms": 1.4791899988267692,
+            "p95_ms": 2.5934599993888687,
+            "p99_ms": 7.456966001009277
+        },
+        "observed_max_ms": 11.21899999998277,
+        "safety_margin_percent": 30.0,
+        "recommended_WCET_ms": 14.584699999977602,
+        "adversarial_exceeded_random": false
+    }
+}

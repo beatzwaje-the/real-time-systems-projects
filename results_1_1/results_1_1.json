@@ -1,0 +1,54 @@
+{
+    "execution_statistics": {
+        "mean_ms": 3.8343560000339494,
+        "standard_deviation_ms": 4.143025631730372,
+        "maximum_ms": 27.22919999905571,
+        "percentile_95_ms": 11.847684998974714
+    },
+    "timing_statistics": {
+        "period_ms": 50.0,
+        "deadline_ms": 40.00000000000001,
+        "mean_response_ms": 11.115878999971756,
+        "maximum_response_ms": 186.50410000009288,
+        "release_jitter_std_ms": 41.83035257322207,
+        "maximum_release_jitter_ms": 245.9447999990516,
+        "completion_jitter_std_ms": 51.88439419860829,
+        "maximum_completion_jitter_ms": 255.9317999985069,
+        "deadline_hit_fraction": 0.95
+    },
+    "lab_results": {
+        "ordinary_max": 0.006483400000433903,
+        "adversarial_max": 0.008163599999534199,
+        "background_timing": {
+            "period_ms": 50.0,
+            "deadline_ms": 40.00000000000001,
+            "mean_response_ms": 3.630505999935849,
+            "maximum_response_ms": 27.358299999832525,
+            "release_jitter_std_ms": 15.681422306929836,
+            "maximum_release_jitter_ms": 108.37260000153037,
+            "completion_jitter_std_ms": 16.84310033905652,
+            "maximum_completion_jitter_ms": 76.08500000060303,
+            "deadline_hit_fraction": 1.0
+        },
+        "period_analysis": [
+            {
+                "period_ms": 20.0,
+                "deadline_ms": 16.0,
+                "release_jitter_std_ms": 1.901290590661191,
+                "jitter_fraction": 0.09506452953305955
+            },
+            {
+                "period_ms": 50.0,
+                "deadline_ms": 40.00000000000001,
+                "release_jitter_std_ms": 10.048758801647411,
+                "jitter_fraction": 0.20097517603294823
+            },
+            {
+                "period_ms": 100.0,
+                "deadline_ms": 80.00000000000001,
+                "release_jitter_std_ms": 3.5432148768063016,
+                "jitter_fraction": 0.03543214876806302
+            }
+        ]
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "background_cpu_load": [
+        {
+            "release_jitter_std_ms": 21.820155110400147,
+            "release_jitter_max_abs_ms": 111.29929999879096,
+            "completion_jitter_std_ms": 21.820155110400147,
+            "completion_jitter_max_abs_ms": 111.29929999879096,
+            "deadline_hit_fraction": 1.0,
+            "parameter": 0.0
+        },
+        {
+            "release_jitter_std_ms": 164.48626269765663,
+            "release_jitter_max_abs_ms": 661.0710000004474,
+            "completion_jitter_std_ms": 164.48626269765663,
+            "completion_jitter_max_abs_ms": 661.0710000004474,
+            "deadline_hit_fraction": 0.995,
+            "parameter": 0.25
+        },
+        {
+            "release_jitter_std_ms": 48.37003764385716,
+            "release_jitter_max_abs_ms": 272.4794000005204,
+            "completion_jitter_std_ms": 48.37003764385716,
+            "completion_jitter_max_abs_ms": 272.4794000005204,
+            "deadline_hit_fraction": 0.995,
+            "parameter": 0.5
+        },
+        {
+            "release_jitter_std_ms": 48.3184155096884,
+            "release_jitter_max_abs_ms": 264.72110000031535,
+            "completion_jitter_std_ms": 48.3184155096884,
+            "completion_jitter_max_abs_ms": 264.72110000031535,
+            "deadline_hit_fraction": 1.0,
+            "parameter": 0.75
+        }
+    ],
+    "random_extra_delay": [
+        {
+            "release_jitter_std_ms": 21.190783336597217,
+            "release_jitter_max_abs_ms": 130.0940000000992,
+            "completion_jitter_std_ms": 21.190783336597217,
+            "completion_jitter_max_abs_ms": 130.0940000000992,
+            "deadline_hit_fraction": 0.995,
+            "parameter": 0.0
+        },
+        {
+            "release_jitter_std_ms": 11.29684816660454,
+            "release_jitter_max_abs_ms": 70.36920000064129,
+            "completion_jitter_std_ms": 11.29684816660454,
+            "completion_jitter_max_abs_ms": 70.36920000064129,
+            "deadline_hit_fraction": 0.985,
+            "parameter": 0.05
+        },
+        {
+            "release_jitter_std_ms": 23.249198615341918,
+            "release_jitter_max_abs_ms": 131.98349999947823,
+            "completion_jitter_std_ms": 23.249198615341918,
+            "completion_jitter_max_abs_ms": 131.98349999947823,
+            "deadline_hit_fraction": 0.98,
+            "parameter": 0.15
+        },
+        {
+            "release_jitter_std_ms": 192.28764811355472,
+            "release_jitter_max_abs_ms": 553.0856999994285,
+            "completion_jitter_std_ms": 192.28764811355472,
+            "completion_jitter_max_abs_ms": 553.0856999994285,
+            "deadline_hit_fraction": 0.855,
+            "parameter": 0.3
+        }
+    ],
+    "execution_time_variability": [
+        {
+            "release_jitter_std_ms": 13.797924458922743,
+            "release_jitter_max_abs_ms": 101.46240000176476,
+            "completion_jitter_std_ms": 13.797924458922743,
+            "completion_jitter_max_abs_ms": 101.46240000176476,
+            "deadline_hit_fraction": 1.0,
+            "parameter": 0.0
+        },
+        {
+            "release_jitter_std_ms": 10.0192337799583,
+            "release_jitter_max_abs_ms": 77.89129999946454,
+            "completion_jitter_std_ms": 10.0192337799583,
+            "completion_jitter_max_abs_ms": 77.89129999946454,
+            "deadline_hit_fraction": 1.0,
+            "parameter": 0.1
+        },
+        {
+            "release_jitter_std_ms": 4.856551135978401,
+            "release_jitter_max_abs_ms": 35.959700000603334,
+            "completion_jitter_std_ms": 4.856551135978401,
+            "completion_jitter_max_abs_ms": 35.959700000603334,
+            "deadline_hit_fraction": 0.995,
+            "parameter": 0.25
+        },
+        {
+            "release_jitter_std_ms": 2.1043560106050045,
+            "release_jitter_max_abs_ms": 24.575899999035755,
+            "completion_jitter_std_ms": 2.1043560106050045,
+            "completion_jitter_max_abs_ms": 24.575899999035755,
+            "deadline_hit_fraction": 1.0,
+            "parameter": 0.4
+        }
+    ]
+}
