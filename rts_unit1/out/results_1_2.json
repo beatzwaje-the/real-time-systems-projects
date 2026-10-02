@@ -1,0 +1,95 @@
+{
+  "search_early_exit": {
+    "stats": {
+      "random": {
+        "n": 500,
+        "mean": 3.350463799966974e-05,
+        "std": 2.1353684287162656e-05,
+        "min": 5.010000023730754e-07,
+        "max": 0.00012216399998976613,
+        "p90": 5.947209999845882e-05,
+        "p95": 6.365094999978281e-05,
+        "p99": 8.65257699993549e-05,
+        "outlier_flag": false
+      },
+      "adversarial": {
+        "n": 500,
+        "mean": 7.288809400037622e-05,
+        "std": 4.3993313489862884e-05,
+        "min": 5.681100000742845e-05,
+        "max": 0.0006768450000009807,
+        "p90": 0.00010297550000473169,
+        "p95": 0.00011633055000004325,
+        "p99": 0.0002818906200040771,
+        "outlier_flag": true
+      }
+    },
+    "overall_max": 0.0006768450000009807,
+    "recommended": 0.001015267500001471,
+    "adversarial_over_random": 5.540462002371248,
+    "adversarial_was_largest": true,
+    "limitations": "Measured maximum over 500 runs per strategy; NOT a sound bound. Unexercised paths, hardware state (cache/pipeline) and OS noise may give longer times. Margin of 50% is a heuristic, not a proof."
+  },
+  "collatz_steps": {
+    "stats": {
+      "random": {
+        "n": 500,
+        "mean": 7.517851999722325e-06,
+        "std": 6.394840590627495e-06,
+        "min": 1.317999988259544e-06,
+        "max": 9.846300000049268e-05,
+        "p90": 1.1677500006612718e-05,
+        "p95": 1.3187149993143475e-05,
+        "p99": 3.000875000026323e-05,
+        "outlier_flag": true
+      },
+      "adversarial": {
+        "n": 500,
+        "mean": 2.571471800021641e-05,
+        "std": 1.65694405980934e-05,
+        "min": 2.177100000722021e-05,
+        "max": 0.00021885600000359773,
+        "p90": 2.6775399994960484e-05,
+        "p95": 3.461119999883501e-05,
+        "p99": 7.277177000943836e-05,
+        "outlier_flag": true
+      }
+    },
+    "overall_max": 0.00021885600000359773,
+    "recommended": 0.0003282840000053966,
+    "adversarial_over_random": 2.222723256477079,
+    "adversarial_was_largest": true,
+    "limitations": "Measured maximum over 500 runs per strategy; NOT a sound bound. Unexercised paths, hardware state (cache/pipeline) and OS noise may give longer times. Margin of 50% is a heuristic, not a proof."
+  },
+  "mode_controller": {
+    "stats": {
+      "random": {
+        "n": 500,
+        "mean": 3.2182579999471272e-06,
+        "std": 1.627285835001833e-05,
+        "min": 1.679999996895276e-07,
+        "max": 0.00021190300000739626,
+        "p90": 1.3061900001787308e-05,
+        "p95": 1.4913599991217548e-05,
+        "p99": 1.9555670002943966e-05,
+        "outlier_flag": true
+      },
+      "adversarial": {
+        "n": 500,
+        "mean": 0.002739258300000188,
+        "std": 0.0006279613082150648,
+        "min": 0.002259129999998777,
+        "max": 0.005307906999988177,
+        "p90": 0.0037580774000005607,
+        "p95": 0.004495707399997428,
+        "p99": 0.004703461689990007,
+        "outlier_flag": false
+      }
+    },
+    "overall_max": 0.005307906999988177,
+    "recommended": 0.007961860499982265,
+    "adversarial_over_random": 25.048758157283803,
+    "adversarial_was_largest": true,
+    "limitations": "Measured maximum over 500 runs per strategy; NOT a sound bound. Unexercised paths, hardware state (cache/pipeline) and OS noise may give longer times. Margin of 50% is a heuristic, not a proof."
+  }
+}
